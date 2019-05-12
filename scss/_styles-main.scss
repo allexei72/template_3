@@ -1,0 +1,11 @@
+.xyu {
+  width: 100%;
+  background-color: $bliz;
+  height: 300px;
+}
+
+@include breakpoint-xs-up() {
+  .xyu   {
+    width: 50%;
+  }
+} 
