@@ -1,3 +1,2 @@
 # ignore node.js packages
-package-lock.json
 node_modules/

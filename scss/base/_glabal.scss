@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  color: #7f8c8c;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}

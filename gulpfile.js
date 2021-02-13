@@ -7,7 +7,7 @@ var cleanCSS = require('gulp-clean-css');
 var sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('sass', function(){
-  return gulp.src('scss/style.scss')
+  return gulp.src('./scss/style.scss')
     .pipe(sourcemaps.init())
     .pipe(plumber())
     .pipe(sass())
