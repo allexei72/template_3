@@ -1,0 +1,26 @@
+.slider{
+
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative;
+  }
+
+.slider_1 {
+
+    display: block;
+    width: 60px;
+    height: 5px;
+    background-color:#b0b8b9;
+  }
+
+.slider_1.active {
+    
+   background-color: #e2534b;
+   width: 60px;
+   height: 5px;
+   z-index: 1;
+  }

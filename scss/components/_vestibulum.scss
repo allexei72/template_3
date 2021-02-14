@@ -1,0 +1,65 @@
+.vestibulum {
+
+    display: block;
+    background-color: grey;
+    width: 100%;
+    height: 500px;
+    color: #fff;
+  }
+  
+.section-logo {
+
+    text-align: center;
+    width: 345px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 160px;
+    border-radius: 10px;
+  }
+  
+.vest-logo {
+
+    font-size: 50px;
+    font-weight: 700;
+    background-color: #e2534b;
+  }
+  
+.section-text {
+
+    width: 470px;
+    height: 70px;
+    margin: 0 auto;
+    background-color: #3f4646;
+    text-align: center;
+  }
+
+.vest-maece {
+
+    font-size: 16px;
+  }
+  
+.section_arrows {
+
+    z-index: 1;
+    justify-content: space-between;
+    display: flex;
+  }
+
+.arrows {
+
+    background-color: #e2534b;
+    border-radius: 3px;
+  }
+
+.arrows-icons{
+
+    height: 30px;
+    width: 30px;
+  }
+
+.arrows-icons svg {
+
+    width :30px;
+    height: 30px;
+    color: #fff;
+  }
