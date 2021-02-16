@@ -1,7 +1,5 @@
 .section_information {
-
-    width: 100%;
-    margin: 0 auto;
+    padding: 50px;
     background-color: #f3f3f3;
   }
   
@@ -9,48 +7,36 @@
 
     display: flex;
     align-items: center;
-    width: 1170px;
-    height: 70px;
     background-color: #ececec;
     border-radius: 3px;
     color: #7f8c8c;
     justify-content: space-between;
-    padding: 25px 25px;
   }
   
-.section title {
-
-    margin: 0 auto;
+.section_title {
+   padding: 25px;
   }
 
 .section_title h1 {
-    
+    font-family: "Myriad Pro";
     font-size: 30px;
   }
   
 .section_title h2 {
-
     font-size: 13px;
-  }
-  
-  
-.section_button {
-
-    background:#e8645a;
-    margin-right: 15px;
-    border-radius: 8px;
-    padding: 10px 20px;
-    display:block;
-  }
-
-.section_button :hover{
-
-    background-color: #76c7c0;
+    font-family: "Myriad Pro";
   }
   
 .section_button a {
-    
+  background:#e8645a;
+  margin-right: 35px;
+  border-radius: 8px;
+  padding: 10px 20px;
+  display:block;
   text-decoration: none;
   font-size: 20px;
   color: #fff;
+  }
+  .section_button a:hover{
+    background-color: #76c7c0;
   }

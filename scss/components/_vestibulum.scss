@@ -1,65 +1,65 @@
 .vestibulum {
-
-    display: block;
     background-color: grey;
-    width: 100%;
-    height: 500px;
     color: #fff;
+    padding-top: 160px;
+    position: relative;
   }
   
 .section-logo {
-
-    text-align: center;
-    width: 345px;
-    height: 50px;
-    margin: 0 auto;
-    padding-top: 160px;
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+  
   }
   
 .vest-logo {
-
     font-size: 50px;
     font-weight: 700;
     background-color: #e2534b;
+    font-family: "OpenSans";
+    border-radius: 10px;
+    padding: 5px 10px;
   }
   
 .section-text {
-
-    width: 470px;
-    height: 70px;
-    margin: 0 auto;
-    background-color: #3f4646;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+    
   }
 
 .vest-maece {
-
     font-size: 16px;
+    font-family: "Myriad Pro";
+    background-color: #3f4646;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px 35px; 
   }
   
 .section_arrows {
+   justify-content: space-between;
+   display: flex;
+   position: absolute;
+   top: 50%;
+   width: 100%;
 
-    z-index: 1;
-    justify-content: space-between;
-    display: flex;
   }
 
-.arrows {
-
+.arrows-icons {
+    display: block;
     background-color: #e2534b;
     border-radius: 3px;
-  }
-
-.arrows-icons{
-
     height: 30px;
     width: 30px;
   }
 
 .arrows-icons svg {
-
     width :30px;
     height: 30px;
-    color: #fff;
+    fill: #fff;
   }
+
+
+  
+
+  
