@@ -1,36 +1,37 @@
 .section_clients {
-  display: flex;
-  justify-content: space-between;
-  background-color: #ececec;
-  margin: 0 auto;
-  padding: 60px 0;
-  align-items: center;
-  }
-  
-.clients_logo h3{
-  font-size: 16px;
-  font-weight: 600;
-  position: relative;
-  }
+ display: flex;
+ justify-content: space-between;
+ background-color: #ececec;
+ margin: 0 auto;
+ padding: 60px 0;
+ align-items: center;
+}
 
-.clients_logo h3:after{
-  position: absolute;
-  content: "";
-  display: block;
-  width: 500px;
-  height: 5px;
-  color: #3f4646;
-  top: 0;
-  right: 0;
-  }
+.clients_logo h3 {
+ font-size: 16px;
+ font-weight: 600;
+ position: relative;
+ font-family: "open_sansextrabold"; 
+}
+
+.clients_logo h3:after {
+ position: absolute;
+ content: "";
+ display: block;
+ width: 500px;
+ height: 5px;
+ color: #3f4646;
+ top: 0;
+ right: 0;
+}
   
 .clients_arrows a svg {
-  color: #98a3a3;
-  width: 40px;
-  height: 40px;
-  }
+ color: #98a3a3;
+ width: 40px;
+ height: 40px;
+}
 
-.clients_arrows a :hover{
-  color: #e1524b;
-  z-index: 1;
-  }
+.clients_arrows a :hover {
+ color: #e1524b;
+ z-index: 1;
+}

@@ -1,63 +1,70 @@
 .vestibulum {
-    background-color: grey;
-    color: #fff;
-    padding-top: 160px;
-    position: relative;
-  }
+  background-color: #fff;
+  position: relative;
+}
   
+.section_vest {
+  background-color: grey;
+  color: #fff;
+  padding-top: 160px;
+}
+
 .section-logo {
-    display: flex;
-    justify-content: center;
-  
-  }
+  display: flex;
+  justify-content: center; 
+}
   
 .vest-logo {
-    font-size: 50px;
-    font-weight: 700;
-    background-color: #e2534b;
-    font-family: "OpenSans";
-    border-radius: 10px;
-    padding: 5px 10px;
-  }
+  font-size: 50px;
+  font-weight: 700;
+  background-color: #e2534b;
+  font-family: "open_sansextrabold";
+  border-radius: 10px;
+  padding: 5px 10px;
+}
   
-.section-text {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 200px;
+.section-text{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 200px;
     
-  }
+}
 
-.vest-maece {
-    font-size: 16px;
-    font-family: "Myriad Pro";
-    background-color: #3f4646;
-    margin-top: 10px;
-    border-radius: 5px;
-    padding: 10px 35px; 
-  }
+.vest-maece{
+  width: 100%;
+  max-width: 470px;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 16px;
+  font-family: "open_sansregular";
+  background-color: #3f4646;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px 35px; 
+}
   
-.section_arrows {
-   justify-content: space-between;
-   display: flex;
-   position: absolute;
-   top: 50%;
-   width: 100%;
+.section_arrows{
+  justify-content: space-between;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  width: 100%;
 
-  }
+}
 
-.arrows-icons {
-    display: block;
-    background-color: #e2534b;
-    border-radius: 3px;
-    height: 30px;
-    width: 30px;
-  }
+.arrows-icons{
+  display: block;
+  background-color: #e2534b;
+  border-radius: 3px;
+  height: 30px;
+  width: 30px;
+}
 
-.arrows-icons svg {
-    width :30px;
-    height: 30px;
-    fill: #fff;
-  }
+.arrows-icons svg{
+  width :30px;
+  height: 30px;
+  fill: #fff;
+}
 
 
   

@@ -1,31 +1,30 @@
 .section_information {
-    padding: 50px;
-    background-color: #f3f3f3;
-  }
+  padding: 50px;
+  background-color: #f3f3f3;
+}
   
 .section_intro {
-
-    display: flex;
-    align-items: center;
-    background-color: #ececec;
-    border-radius: 3px;
-    color: #7f8c8c;
-    justify-content: space-between;
-  }
+  display: flex;
+  align-items: center;
+  background-color: #ececec;
+  border-radius: 3px;
+  color: #7f8c8c;
+  justify-content: space-between;
+}
   
 .section_title {
-   padding: 25px;
-  }
+  padding: 25px;
+}
 
 .section_title h1 {
-    font-family: "Myriad Pro";
-    font-size: 30px;
-  }
+  font-family: "open_sanssemibold";
+  font-size: 30px;
+}
   
 .section_title h2 {
-    font-size: 13px;
-    font-family: "Myriad Pro";
-  }
+  font-size: 13px;
+  font-family: "open_sansregular";
+}
   
 .section_button a {
   background:#e8645a;
@@ -36,7 +35,8 @@
   text-decoration: none;
   font-size: 20px;
   color: #fff;
-  }
-  .section_button a:hover{
-    background-color: #76c7c0;
-  }
+}
+
+.section_button a:hover{
+  background-color: #76c7c0;
+}
